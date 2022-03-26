@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>SIGN IN</title>
+</head>
+<body>
+    <h1>Sign IN</h1>
+    <small>Don't have account? then <a href="sign_up.html">Sign UP</a> NOW.</small><br><br>
+    
+    <form action='/index.html' method="POST" id="signInForm">
+        <div>
+            <label>Email </label>
+            <input id="email" style="margin-left: 23px;" type="email" placeholder="ossama@google.com" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label>Password </label>
+            <input id="password" type="password" placeholder="Password*" name="pass" required>
+        </div>
+        <br>
+        <div><input type="submit" value="Sign IN"></div>
+        <br>
+    </form>
+
+    <output id="result"></output>
+<script src="signin.js"></script>
+</body>
